@@ -4,6 +4,8 @@ go 1.18
 
 require github.com/cachito-testing/cachito-gomod-local-parent-deps v0.0.0
 require github.com/cachito-testing/cachito-gomod-local-parent-deps/foo-module/bar-module v0.0.0
+require github.com/cachito-testing/spam-module v0.0.0
 
 replace github.com/cachito-testing/cachito-gomod-local-parent-deps => ../
 replace github.com/cachito-testing/cachito-gomod-local-parent-deps/foo-module/bar-module => ./foo-package/../bar-module
+replace github.com/cachito-testing/spam-module => ../staging/src/spam-module
